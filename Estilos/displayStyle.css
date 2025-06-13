@@ -1,0 +1,82 @@
+.flex-container-linha-reverso {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-container-coluna-reverso {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.flex-container-linha-meio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex-container-linha-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.flex-container-linha-espacado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-container-linha-espalhado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-container-linha-centro-inicio {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-container-linha-cima-inicio {
+
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-container-linha-baixo-inicio {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.element {
+    background-color: rgb(240, 240, 240);
+    margin: 5px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+
+.element2 {
+    background-color: rgb(240, 240, 240);
+    margin: 5px;
+    width: 40px;
+    height: 95%;
+    text-align: center;
+}
+
+div {
+    background-color: rgb(40, 154, 207);
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(71, 70, 73);
+}
