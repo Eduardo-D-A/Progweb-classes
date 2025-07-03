@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Uma página sobre formularios html">
+        <meta name="author" content="Eduardo-IFES">
+        <meta name="keywords" content="html, formularios, ifes, progweb">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styleFormulario.css">
+
+        <title>Eduardo</title>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>MANUTENÇÃO DE USUÁRIO DO SISTEMA INTERNO</legend>
+
+                <section>
+                    <label for="login">Login</label>
+                    <input type="text" id="login" name="login">
+                    <br>
+                </section>
+                <section>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="lname" name="lname">
+                    <br>
+                </section>
+                
+
+
+                <section>
+                    <label for="status">Status</label>
+                    <select id="status" name="status">
+                        <option value="ativo">Ativo</option>
+                        <option value="inativo">Inativo</option>
+                    </select>
+                    <br>
+                </section>
+
+
+                <section>
+                    <label>Tipo</label>
+                    <div>
+                        <input type="radio" id="tecnico" name="tipe" value="tecnico">
+                        <label for="tecnico">Técnico</label>
+                        <input type="radio" id="professor" name="tipe" value="professor">
+                        <label for="professor">Professor</label>
+                        <input type="radio" id="aluno" name="tipe" value="aluno">
+                        <label for="aluno">Aluno</label>
+                        <br>
+                    </div>
+                </section>
+
+
+                <section>
+                    <label for="dataCriacao">Data da Criação</label>
+                    <input type="date" id="dataCriacao" name="dataCriacao">
+                    <br>
+                </section>
+
+                <section>
+                    <label>Perfil</label>
+
+                    <input type="radio" id="convidado" name="perf" value="convidado">
+                    <label for="convidado">Convidado</label>
+                    <input type="radio" id="administrador" name="perf" value="administrador">
+                    <label for="administrador">Administrador</label>
+                    <br>
+                </section>
+
+                <section>
+                    <label for="comentario" id="coment">Comentários</label>
+                    <textarea id=comentario name="comentario" rows="5" cols="30"></textarea>
+                    <br>
+                </section>
+
+                <section>
+                    <label>Tipo</label>
+
+                    <section>
+                        <input type="checkbox" id="compras" name="compras" value="Bike">
+                        <label for="compras">Compras</label>
+                        <input type="checkbox" id="biblioteca" name="biblioteca" value="Car">
+                        <label for="biblioteca">Biblioteca</label>
+                        <input type="checkbox" id="academico" name="academico" value="Boat">
+                        <label for="academico">Acadêmico</label>
+                        
+                    </section>
+                
+                    <section id="tipe">
+                        <input type="checkbox" id="documentacao" name="documentacao" value="Bike">
+                        <label for="documentacao">Documentação</label>
+                        <input type="checkbox" id="recursosHumanos" name="recursosHumanos" value="Car">
+                        <label for="recursosHumanos" id="humRec">Recursos Humanos</label>
+                        <br>
+                    </section>
+                </section>                
+            
+
+                <input type="submit" value="Cadastrar">
+                <input type="submit" value="Excluir">
+            </fieldset>
+        </form>
+    </body>
+</html>

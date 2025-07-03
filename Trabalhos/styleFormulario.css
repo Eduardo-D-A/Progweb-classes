@@ -1,0 +1,44 @@
+fieldset {
+  background-color: #eeeeee;
+  width: 500px;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+label {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-flow: row;
+}
+
+#coment{
+    display: flex;
+    align-items: center;
+}
+
+#tipe {
+    margin-left: 100px;
+}
+
+#humRec {
+    width: 150px;
+}
